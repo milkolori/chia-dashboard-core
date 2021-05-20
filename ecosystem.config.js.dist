@@ -6,7 +6,7 @@ module.exports = {
     exec_mode : 'cluster',
     env: {
       NODE_ENV: 'production',
-      DATABASE_URL: '',
+      DATABASE_URL: 'mongodb://localhost:27017/chia_dashboard',
       JWT_SIGNING_SECRET: '',
     },
   }],

@@ -8,6 +8,7 @@
         "@sentry/node": "^6.4.0",
         "axios": "^0.21.1",
         "bignumber.js": "^9.0.1",
+        "dotenv": "^9.0.2",
         "jsonwebtoken": "^8.5.1",
         "koa": "^2.13.1",
         "koa-bodyparser": "^4.3.0",
@@ -20,7 +21,8 @@
         "uuid": "^8.3.2"
     },
     "scripts": {
-        "start": "node main.js"
+        "start": "node  main.js",
+        "dev": "node -r dotenv/config main.js"
     },
     "main": "main.js"
 }
